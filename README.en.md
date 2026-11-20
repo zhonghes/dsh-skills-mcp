@@ -19,6 +19,8 @@ The images below are diagrams; labels are in Chinese.
 
 <a href="docs/images/entry.png"><img src="docs/images/entry.png" width="860" alt="Diagram: the sidebar Skills & MCP page — Global / Project switch in the header, Skills / MCP tabs in the content area"></a>
 
+<a href="docs/images/session.png"><img src="docs/images/session.png" width="860" alt="Diagram: the conversation View entry — Skills & MCP in the conversation tab row, reusing the same page"></a>
+
 Sidebar page structure:
 
 - The header holds only the title, the enabled count, the `Global | Project` scope switch, and refresh; **no workspace control**. Clicking refresh spins the icon until the reload finishes.

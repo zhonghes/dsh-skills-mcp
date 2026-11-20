@@ -2,7 +2,7 @@
 
 ## 未发布
 
-- README 增加四张示意图：侧栏入口页、技能 tab、MCP tab、作用域优先级（PNG + SVG 源文件）。
+- README 增加五张示意图：侧栏入口页、会话 View、技能 tab、MCP tab、作用域优先级（PNG + SVG 源文件）。
 
 ## 0.1.0 — 2026-11-19
 
