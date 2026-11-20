@@ -21,11 +21,11 @@ The images below are diagrams; labels are in Chinese.
 
 Sidebar page structure:
 
-- The header holds only the title, the `Global | Project` scope switch, and refresh; **no workspace control**. Clicking refresh spins the icon until the reload finishes.
+- The header holds only the title, the enabled count, the `Global | Project` scope switch, and refresh; **no workspace control**. Clicking refresh spins the icon until the reload finishes.
 - Content tabs are `Skills | MCP`; MCP is never pushed below a long skill list.
 - On the project Skills tab, the workspace selector shares a row with search (workspace left, search/source right); the MCP tab keeps a separate workspace row; global/session show no workspace.
 - The Skills tab supports name/description search and source filtering; sources are split into User DSH (`~/.dsh/skills`), User AGENTS (`~/.agents/skills` / `$DSH_AGENTS_HOME/skills`), Project DSH (`.dsh/skills`), Project AGENTS (`.agents/skills`), Built-in, Plugin, Custom, and Other.
-- Both the Skills and MCP tabs support “only enabled”, aligned to the right of the toolbar.
+- Both the Skills and MCP tabs support “only enabled”, aligned to the right of the tab bar.
 - Each Skills/MCP tab bar has a `?` at the right: clicking it shows the current scope explanation (no permanently visible long notice); the same row also has “only enabled” and the bulk bar: global offers only “Enable all / Disable all”, while project/session also have “Reset all”. The bulk action applies to the rows currently shown in that tab and refreshes afterwards; project/session Reset all clears the local decision and returns to inheritance.
 - The project Skills tab’s workspace selector shares a row with search; the MCP tab’s workspace row only keeps the selector; the project MCP note is merged into the MCP tab’s `?`, so there is no second question mark.
 - MCP add/edit/remove and definition toggles live in the Global tab; the Project tab only controls availability.
