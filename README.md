@@ -17,7 +17,7 @@ DeepSeek Harness 的 Web 插件：在一个面板里查看**实际生效**的技
 
 以下配图都是示意图。
 
-<a href="docs/images/entry.png"><img src="docs/images/entry.png" width="860" alt="示意图：两个入口——侧栏「技能与 MCP」页与会话 View 标签页"></a>
+<a href="docs/images/entry.png"><img src="docs/images/entry.png" width="860" alt="示意图：侧栏「技能与 MCP」页——header 切「全局 / 项目」，内容区切「技能 / MCP」"></a>
 
 侧栏页面结构：
 

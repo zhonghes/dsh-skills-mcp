@@ -1,53 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="820" viewBox="0 0 1800 820">
-  <rect width="1800" height="820" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1010" viewBox="0 0 1800 1010">
+  <rect width="1800" height="1010" fill="#ffffff"/>
+  <rect x="60" y="60" width="1680" height="850" fill="#ffffff" stroke="#cfd4dc" stroke-width="2"/>
+  <line x1="380" y1="60" x2="380" y2="910" stroke="#cfd4dc" stroke-width="2"/>
 
-  <!-- entry 1: sidebar -->
-  <rect x="60" y="60" width="810" height="680" rx="12" fill="#ffffff" stroke="#d7dbe2" stroke-width="2"/>
-  <circle cx="112" cy="120" r="17" fill="#3366ff"/>
-  <text x="112" y="128" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="140" y="134" font-family="Noto Sans SC, sans-serif" font-size="36" font-weight="700" fill="#23262b">侧栏入口</text>
-  <text x="112" y="178" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#9ca3af">技能与 MCP</text>
+  <!-- sidebar -->
+  <text x="90" y="135" font-family="Noto Sans SC, sans-serif" font-size="34" font-weight="700" fill="#23262b">deepseek</text>
+  <rect x="248" y="108" width="94" height="26" rx="4" fill="#ffffff" stroke="#9ca3af"/>
+  <text x="295" y="127" font-family="Noto Sans SC, sans-serif" font-size="14" letter-spacing="2" fill="#6b7280" text-anchor="middle">HARNESS</text>
 
-  <rect x="100" y="210" width="280" height="430" rx="10" fill="#f7f8fa" stroke="#e3e6ea"/>
-  <text x="122" y="258" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">插件</text>
-  <text x="122" y="298" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">自动化任务</text>
-  <rect x="110" y="318" width="260" height="54" rx="8" fill="#e9efff" stroke="#3366ff" stroke-width="2"/>
-  <text x="130" y="352" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="600" fill="#2f5bd7">技能与 MCP</text>
-  <text x="122" y="412" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">更多</text>
-  <text x="122" y="470" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#9ca3af">工作区</text>
-  <text x="122" y="505" font-family="Noto Sans SC, sans-serif" font-size="24" fill="#23262b">dsh</text>
-  <text x="122" y="548" font-family="Noto Sans SC, sans-serif" font-size="24" fill="#23262b">tmp</text>
+  <rect x="80" y="165" width="280" height="52" rx="8" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="220" y="198" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#23262b" text-anchor="middle">+ 新会话</text>
 
-  <rect x="430" y="210" width="390" height="260" rx="10" fill="#fbfcfd" stroke="#e3e6ea"/>
-  <text x="456" y="258" font-family="Noto Sans SC, sans-serif" font-size="24" font-weight="700" fill="#23262b">打开后</text>
-  <text x="456" y="310" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">header 切「全局 / 项目」</text>
-  <text x="456" y="350" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">内容区切「技能 / MCP」</text>
-  <text x="456" y="390" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">项目作用域内再选工作区</text>
-  <text x="456" y="438" font-family="Noto Sans SC, sans-serif" font-size="19" fill="#9ca3af">全局 tab 管理 MCP 定义</text>
+  <text x="90" y="260" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#23262b">插件</text>
+  <text x="90" y="305" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#23262b">自动化任务</text>
 
-  <text x="112" y="700" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">侧栏是唯一的配置入口。</text>
+  <rect x="80" y="325" width="280" height="54" rx="8" fill="#e9efff" stroke="#3366ff" stroke-width="2"/>
+  <text x="102" y="359" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="600" fill="#2f5bd7">技能与 MCP</text>
 
-  <!-- entry 2: conversation view -->
-  <rect x="930" y="60" width="810" height="680" rx="12" fill="#ffffff" stroke="#d7dbe2" stroke-width="2"/>
-  <circle cx="962" cy="120" r="17" fill="#3366ff"/>
-  <text x="962" y="128" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="990" y="134" font-family="Noto Sans SC, sans-serif" font-size="36" font-weight="700" fill="#23262b">会话 View</text>
-  <text x="962" y="178" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#9ca3af">对话标签页</text>
+  <text x="90" y="425" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#23262b">更多</text>
+  <text x="90" y="490" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#9ca3af">工作区</text>
+  <text x="90" y="525" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#23262b">dsh</text>
+  <text x="90" y="568" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#23262b">tmp</text>
 
-  <text x="962" y="250" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#9ca3af">对话</text>
-  <text x="1032" y="250" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#9ca3af">轨迹</text>
-  <rect x="1102" y="214" width="216" height="50" rx="8" fill="#e9efff" stroke="#3366ff" stroke-width="2"/>
-  <text x="1122" y="248" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="600" fill="#2f5bd7">技能与 MCP</text>
-  <line x1="950" y1="284" x2="1700" y2="284" stroke="#e3e6ea" stroke-width="2"/>
+  <!-- page header -->
+  <text x="410" y="140" font-family="Noto Sans SC, sans-serif" font-size="34" font-weight="700" fill="#23262b">技能与 MCP</text>
+  <rect x="640" y="108" width="160" height="38" rx="6" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="720" y="134" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280" text-anchor="middle">已启用 7 / 9</text>
 
-  <rect x="950" y="310" width="750" height="250" rx="10" fill="#fbfcfd" stroke="#e3e6ea"/>
-  <text x="976" y="358" font-family="Noto Sans SC, sans-serif" font-size="24" font-weight="700" fill="#23262b">同一套页面</text>
-  <text x="976" y="408" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">技能 / MCP 两个 tab</text>
-  <text x="976" y="448" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">搜索、来源筛选、只看已启用</text>
-  <text x="976" y="488" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">只控制当前会话，不重复「本会话」</text>
+  <rect x="1438" y="104" width="190" height="38" rx="8" fill="#ffffff" stroke="#d7dbe2"/>
+  <rect x="1441" y="107" width="86" height="32" rx="6" fill="#3366ff"/>
+  <text x="1484" y="129" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">全局</text>
+  <text x="1576" y="129" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#7a8089">项目</text>
+  <g stroke="#7a8089" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1688 123a13 13 0 1 1-4-10"/>
+    <path d="M1688 108v12h-12"/>
+  </g>
 
-  <text x="962" y="640" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">不显示工作区选择器，也不提供定义编辑。</text>
-  <text x="962" y="700" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">刷新按钮保留，刷新期间持续旋转。</text>
+  <!-- tabs -->
+  <text x="410" y="215" font-family="Noto Sans SC, sans-serif" font-size="24" font-weight="600" fill="#23262b">技能 9</text>
+  <rect x="410" y="223" width="82" height="3" fill="#3366ff"/>
+  <text x="520" y="215" font-family="Noto Sans SC, sans-serif" font-size="24" fill="#7a8089">MCP 3</text>
+  <line x1="400" y1="230" x2="1700" y2="230" stroke="#e3e6ea" stroke-width="2"/>
 
-  <text x="90" y="790" font-family="Noto Sans SC, sans-serif" font-size="24" fill="#4b5563">两个入口共用同一套页面：侧栏页负责配置，会话 View 负责本会话启停。</text>
+  <rect x="1000" y="197" width="16" height="16" rx="3" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="1026" y="212" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#4b5563">只看已启用</text>
+  <rect x="1130" y="192" width="84" height="30" rx="7" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="1172" y="212" font-family="Noto Sans SC, sans-serif" font-size="15" fill="#23262b" text-anchor="middle">全部启用</text>
+  <rect x="1224" y="192" width="84" height="30" rx="7" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="1266" y="212" font-family="Noto Sans SC, sans-serif" font-size="15" fill="#23262b" text-anchor="middle">全部关闭</text>
+  <circle cx="1682" cy="207" r="15" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="1682" y="213" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#6b7280" text-anchor="middle">?</text>
+
+  <!-- toolbar (global: search/source/count right-aligned) -->
+  <rect x="1000" y="252" width="250" height="42" rx="8" fill="#ffffff" stroke="#cfd4dc"/>
+  <circle cx="1022" cy="272" r="6" fill="none" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="1026" y1="277" x2="1032" y2="283" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+  <text x="1044" y="280" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#9ca3af">搜索技能…</text>
+  <rect x="1270" y="252" width="160" height="42" rx="8" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="1288" y="280" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#23262b">全部来源</text>
+  <path d="M1400 272l6 7 6-7" fill="none" stroke="#7a8089" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1700" y="280" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#9ca3af" text-anchor="end">显示 9 / 9</text>
+
+  <!-- skills group -->
+  <rect x="410" y="330" width="1290" height="550" rx="12" fill="#ffffff" stroke="#d7dbe2"/>
+  <text x="440" y="372" font-family="Noto Sans SC, sans-serif" font-size="24" font-weight="700" fill="#23262b">用户技能</text>
+  <line x1="410" y1="392" x2="1700" y2="392" stroke="#e3e6ea" stroke-width="2"/>
+  <line x1="410" y1="575" x2="1700" y2="575" stroke="#e3e6ea" stroke-width="2"/>
+  <line x1="410" y1="758" x2="1700" y2="758" stroke="#e3e6ea" stroke-width="2"/>
+
+  <text x="440" y="450" font-family="JetBrains Mono, monospace" font-size="24" fill="#23262b">dsh-doc</text>
+  <rect x="590" y="426" width="120" height="30" rx="5" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="650" y="447" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#6b7280" text-anchor="middle">用户 · DSH</text>
+  <text x="440" y="486" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#6b7280">Use when a task needs facts about DSH itself.</text>
+  <text x="440" y="514" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#9ca3af">适用预设: default · ~/.dsh/skills/dsh-doc</text>
+  <rect x="1590" y="438" width="52" height="26" rx="13" fill="#3366ff"/>
+  <circle cx="1629" cy="451" r="10" fill="#ffffff"/>
+
+  <text x="440" y="633" font-family="JetBrains Mono, monospace" font-size="24" fill="#23262b">release-notes</text>
+  <rect x="660" y="609" width="134" height="30" rx="5" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="727" y="630" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#6b7280" text-anchor="middle">用户 · AGENTS</text>
+  <text x="440" y="669" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#6b7280">Draft release notes from merged changes.</text>
+  <text x="440" y="697" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#9ca3af">适用预设: default · ~/.agents/skills/release-notes</text>
+  <rect x="1590" y="621" width="52" height="26" rx="13" fill="#3366ff"/>
+  <circle cx="1629" cy="634" r="10" fill="#ffffff"/>
+
+  <text x="440" y="816" font-family="JetBrains Mono, monospace" font-size="24" fill="#23262b">office-docx</text>
+  <rect x="650" y="792" width="74" height="30" rx="5" fill="#ffffff" stroke="#cfd4dc"/>
+  <text x="687" y="813" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#6b7280" text-anchor="middle">内置</text>
+  <text x="440" y="852" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#6b7280">Create, read, edit, and validate Word documents.</text>
+  <rect x="1590" y="804" width="52" height="26" rx="13" fill="#3366ff"/>
+  <circle cx="1629" cy="817" r="10" fill="#ffffff"/>
+
+  <text x="90" y="968" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#4b5563">侧栏「技能与 MCP」入口：header 切「全局 / 项目」，内容区切「技能 / MCP」；全局 tab 管理 MCP 定义。</text>
 </svg>

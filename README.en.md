@@ -17,7 +17,7 @@ No runtime dependencies; no imports from DSH internals.
 
 The images below are diagrams; labels are in Chinese.
 
-<a href="docs/images/entry.png"><img src="docs/images/entry.png" width="860" alt="Diagram: two entries — the sidebar Skills & MCP page and the conversation View tab"></a>
+<a href="docs/images/entry.png"><img src="docs/images/entry.png" width="860" alt="Diagram: the sidebar Skills & MCP page — Global / Project switch in the header, Skills / MCP tabs in the content area"></a>
 
 Sidebar page structure:
 
