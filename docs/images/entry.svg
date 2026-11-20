@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="820" viewBox="0 0 1800 820">
+  <rect width="1800" height="820" fill="#ffffff"/>
+
+  <!-- entry 1: sidebar -->
+  <rect x="60" y="60" width="810" height="680" rx="12" fill="#ffffff" stroke="#d7dbe2" stroke-width="2"/>
+  <circle cx="112" cy="120" r="17" fill="#3366ff"/>
+  <text x="112" y="128" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="140" y="134" font-family="Noto Sans SC, sans-serif" font-size="36" font-weight="700" fill="#23262b">侧栏入口</text>
+  <text x="112" y="178" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#9ca3af">技能与 MCP</text>
+
+  <rect x="100" y="210" width="280" height="430" rx="10" fill="#f7f8fa" stroke="#e3e6ea"/>
+  <text x="122" y="258" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">插件</text>
+  <text x="122" y="298" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">自动化任务</text>
+  <rect x="110" y="318" width="260" height="54" rx="8" fill="#e9efff" stroke="#3366ff" stroke-width="2"/>
+  <text x="130" y="352" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="600" fill="#2f5bd7">技能与 MCP</text>
+  <text x="122" y="412" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">更多</text>
+  <text x="122" y="470" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#9ca3af">工作区</text>
+  <text x="122" y="505" font-family="Noto Sans SC, sans-serif" font-size="24" fill="#23262b">dsh</text>
+  <text x="122" y="548" font-family="Noto Sans SC, sans-serif" font-size="24" fill="#23262b">tmp</text>
+
+  <rect x="430" y="210" width="390" height="260" rx="10" fill="#fbfcfd" stroke="#e3e6ea"/>
+  <text x="456" y="258" font-family="Noto Sans SC, sans-serif" font-size="24" font-weight="700" fill="#23262b">打开后</text>
+  <text x="456" y="310" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">header 切「全局 / 项目」</text>
+  <text x="456" y="350" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">内容区切「技能 / MCP」</text>
+  <text x="456" y="390" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">项目作用域内再选工作区</text>
+  <text x="456" y="438" font-family="Noto Sans SC, sans-serif" font-size="19" fill="#9ca3af">全局 tab 管理 MCP 定义</text>
+
+  <text x="112" y="700" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">侧栏是唯一的配置入口。</text>
+
+  <!-- entry 2: conversation view -->
+  <rect x="930" y="60" width="810" height="680" rx="12" fill="#ffffff" stroke="#d7dbe2" stroke-width="2"/>
+  <circle cx="962" cy="120" r="17" fill="#3366ff"/>
+  <text x="962" y="128" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="990" y="134" font-family="Noto Sans SC, sans-serif" font-size="36" font-weight="700" fill="#23262b">会话 View</text>
+  <text x="962" y="178" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#9ca3af">对话标签页</text>
+
+  <text x="962" y="250" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#9ca3af">对话</text>
+  <text x="1032" y="250" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#9ca3af">轨迹</text>
+  <rect x="1102" y="214" width="216" height="50" rx="8" fill="#e9efff" stroke="#3366ff" stroke-width="2"/>
+  <text x="1122" y="248" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="600" fill="#2f5bd7">技能与 MCP</text>
+  <line x1="950" y1="284" x2="1700" y2="284" stroke="#e3e6ea" stroke-width="2"/>
+
+  <rect x="950" y="310" width="750" height="250" rx="10" fill="#fbfcfd" stroke="#e3e6ea"/>
+  <text x="976" y="358" font-family="Noto Sans SC, sans-serif" font-size="24" font-weight="700" fill="#23262b">同一套页面</text>
+  <text x="976" y="408" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">技能 / MCP 两个 tab</text>
+  <text x="976" y="448" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">搜索、来源筛选、只看已启用</text>
+  <text x="976" y="488" font-family="Noto Sans SC, sans-serif" font-size="21" fill="#4b5563">只控制当前会话，不重复「本会话」</text>
+
+  <text x="962" y="640" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">不显示工作区选择器，也不提供定义编辑。</text>
+  <text x="962" y="700" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#6b7280">刷新按钮保留，刷新期间持续旋转。</text>
+
+  <text x="90" y="790" font-family="Noto Sans SC, sans-serif" font-size="24" fill="#4b5563">两个入口共用同一套页面：侧栏页负责配置，会话 View 负责本会话启停。</text>
+</svg>

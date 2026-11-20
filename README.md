@@ -15,6 +15,10 @@ DeepSeek Harness 的 Web 插件：在一个面板里查看**实际生效**的技
 | 侧栏「技能与 MCP」 | 唯一的配置入口：header 切 `全局 / 项目`，内容区切 `技能 / MCP`；项目作用域内选择工作区；全局 tab 管理 MCP 定义 |
 | 会话 View 标签 | 与主页面同一套类型 tab / 搜索 / 来源筛选 / 只看已启用；不重复「本会话」标记；header 保留刷新（刷新期间持续旋转，完成后停止）；会话级启停 |
 
+以下配图都是示意图。
+
+<a href="docs/images/entry.png"><img src="docs/images/entry.png" width="860" alt="示意图：两个入口——侧栏「技能与 MCP」页与会话 View 标签页"></a>
+
 侧栏页面结构：
 
 - header 只有标题、`全局 | 项目` 作用域切换和刷新，**没有工作区控件**；点击刷新后图标持续旋转，数据返回后停止。
@@ -35,6 +39,8 @@ DeepSeek Harness 的 Web 插件：在一个面板里查看**实际生效**的技
 - 技能不被复制、移动或修改。启停通过 agent 层同名 runtime stub 实现：模型目录、`skill` 工具和 `/` 菜单会同步隐藏它。
 - 定义（SKILL.md）始终留在磁盘上；本插件不新建、编辑或删除技能文件。
 
+<a href="docs/images/skills.png"><img src="docs/images/skills.png" width="860" alt="示意图：技能 tab，项目作用域；工作区、搜索、来源筛选，以及继承 / 覆盖与重置"></a>
+
 ### MCP
 
 - **定义轴**：mcp-manager 配置里的 `enabled`。关闭会卸载实例并停止进程；任何作用域都不能越过它。
@@ -45,6 +51,8 @@ DeepSeek Harness 的 Web 插件：在一个面板里查看**实际生效**的技
 - **不泄露值**：已有 env/header 的值只以掩码形式返回；编辑时留空表示保留，填写表示替换，删除键表示移除。`GET /api/skills-mcp` 的响应中不包含任何 env/header 值。
 - 状态：`connected / connecting / reconnecting / waiting-credentials / failed / disabled / missing / removed / closed`；可探测、重启。
 - 插件注册的服务器（`configured:false`）显示为「自动」，定义只读，可用性仍可调。
+
+<a href="docs/images/mcp.png"><img src="docs/images/mcp.png" width="860" alt="示意图：MCP tab，全局定义列表、状态与工具数，以及探测 / 重启 / 编辑 / 启停定义"></a>
 
 ### 作用域优先级
 
@@ -59,6 +67,8 @@ session → workspace → global → 默认启用
 - 项目/会话行只有两个决策状态：本层无决策显示「继承」；本层有决策显示「覆盖」。全局没有上级，不显示这类徽标。
 - 项目/会话的覆盖行在开关旁有「重置」按钮：点击清除本层决策并恢复继承；变为继承后按钮自动隐藏。全局没有单行重置。
 - 开关写入当前作用域的显式决策；项目/会话可用「重置」清除回继承，全局只能切换开关。
+
+<a href="docs/images/scope.png"><img src="docs/images/scope.png" width="860" alt="示意图：作用域优先级，会话 → 项目 → 全局 → 默认启用，最近的显式决策胜"></a>
 
 ### Token 成本
 

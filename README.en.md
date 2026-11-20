@@ -15,6 +15,10 @@ No runtime dependencies; no imports from DSH internals.
 | Sidebar “Skills & MCP” | The only configuration surface: the header switches `Global / Project`, the content switches `Skills / MCP`; a project scope picks a workspace; the Global tab owns MCP definitions |
 | Conversation View tab | The same type tabs / search / source filter / “only enabled” as the main page; no repeated “Session” marker; refresh kept in the header (spins until the reload finishes); session overrides |
 
+The images below are diagrams; labels are in Chinese.
+
+<a href="docs/images/entry.png"><img src="docs/images/entry.png" width="860" alt="Diagram: two entries — the sidebar Skills & MCP page and the conversation View tab"></a>
+
 Sidebar page structure:
 
 - The header holds only the title, the `Global | Project` scope switch, and refresh; **no workspace control**. Clicking refresh spins the icon until the reload finishes.
@@ -35,6 +39,8 @@ The Conversation View reuses the same page: no repeated “Session” marker (it
 - Skills are never copied, moved, or modified. Disabling registers a same-name runtime stub in the agent's layer, so the model catalog, the `skill` tool, and the `/` menu hide it together.
 - The definition (SKILL.md) stays on disk. This plugin does not create, edit, or delete skill files.
 
+<a href="docs/images/skills.png"><img src="docs/images/skills.png" width="860" alt="Diagram: Skills tab in the project scope with the workspace selector, search, source filter, inherited / overridden badges and reset"></a>
+
 ### MCP
 
 - **Definition axis**: the mcp-manager entry's `enabled`. Turning it off unmounts the instance and stops the process; no scope can override it.
@@ -45,6 +51,8 @@ The Conversation View reuses the same page: no repeated “Session” marker (it
 - **No value leaks**: existing env/header values are returned as masked keys only; leave a value blank to keep it, type to replace it, remove the key to delete it. `GET /api/skills-mcp` never contains env/header values.
 - Statuses: `connected / connecting / reconnecting / waiting-credentials / failed / disabled / missing / removed / closed`; probe and restart are available.
 - Plugin-registered servers (`configured:false`) appear under “Auto”; their definition is read-only while availability remains controllable.
+
+<a href="docs/images/mcp.png"><img src="docs/images/mcp.png" width="860" alt="Diagram: MCP tab with the global definition list, status and tool count, and probe / restart / edit / definition toggle"></a>
 
 ### Scope precedence
 
@@ -59,6 +67,8 @@ session → workspace → global → default enabled
 - Project/session rows have only two decision states: no local decision shows “Inherited”; a local decision shows “Overridden”. Global has no parent and shows no such badge.
 - An overridden project/session row has a “Reset” button next to its switch: click it to clear the local decision and inherit again; the button hides once the row is inherited. Global has no single-row reset.
 - The switch writes an explicit decision for the current scope; project/session can use “Reset” to return to inheritance, while global only has the switch.
+
+<a href="docs/images/scope.png"><img src="docs/images/scope.png" width="860" alt="Diagram: scope precedence, session → project → global → default enabled; the nearest explicit decision wins"></a>
 
 ### Token cost
 
