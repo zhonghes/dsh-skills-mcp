@@ -1,0 +1,3 @@
+- insert:
+    - id: skills-mcp
+      name: '@local/dsh-skills-mcp'

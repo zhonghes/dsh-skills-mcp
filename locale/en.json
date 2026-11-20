@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Skills & MCP",
+    "description": "Browse and toggle skills and MCP servers per scope; MCP definitions stay owned by the host."
+  },
+  "panel": {
+    "title": "Skills & MCP"
+  },
+  "view": {
+    "title": "Skills & MCP"
+  },
+  "scope": {
+    "global": "Global",
+    "workspace": "Project",
+    "session": "Session"
+  },
+  "source": {
+    "global": "Global",
+    "workspace": "Project",
+    "session": "Session",
+    "auto": "Auto"
+  }
+}

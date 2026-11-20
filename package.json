@@ -1,0 +1,54 @@
+{
+  "name": "@local/dsh-skills-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scoped skills and MCP server management: browse effective skills, enable or disable them per global, project, and session; manage MCP servers, status, tools, and availability.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "src/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "license": "MIT",
+  "author": "zhonghes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhonghes/dsh-skills-mcp.git"
+  },
+  "homepage": "https://github.com/zhonghes/dsh-skills-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/zhonghes/dsh-skills-mcp/issues"
+  },
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.2-rc.3"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js test-ui/*.test.js",
+    "test:host": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "happy-dom": "15.11.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

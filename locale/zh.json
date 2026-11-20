@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "技能与 MCP",
+    "description": "按作用域查看和启停技能与 MCP 服务器；MCP 定义仍由宿主管理。"
+  },
+  "panel": {
+    "title": "技能与 MCP"
+  },
+  "view": {
+    "title": "技能与 MCP"
+  },
+  "scope": {
+    "global": "全局",
+    "workspace": "本项目",
+    "session": "本会话"
+  },
+  "source": {
+    "global": "全局",
+    "workspace": "项目",
+    "session": "会话",
+    "auto": "自动"
+  }
+}
